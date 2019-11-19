@@ -1,0 +1,5 @@
+tweepy
+json
+logging
+pyowm
+numpy
