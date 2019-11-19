@@ -10,5 +10,5 @@ def get_observation():
 
     owm = pyowm.OWM('03a2f49a1242c4094d3593b314fff7f0')
 
-    observation = owm.weather_at_coords(lat, lon).get_weather()
+    observation = owm.weather_at_coords(lat, lon)
     return observation
