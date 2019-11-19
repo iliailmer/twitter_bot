@@ -2,5 +2,5 @@
 
 ##
 
-This repo is a twitter bot that posts one dankest meme from reddit per day every day at 12 pm.
+This repo is a twitter bot that posts one dankest meme from reddit per day every 24 hours.
 
