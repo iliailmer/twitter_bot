@@ -1,4 +1,4 @@
-token.json
+/bot/token.json
 .vscode/
 __pycache__/
 .mypy_cache/
