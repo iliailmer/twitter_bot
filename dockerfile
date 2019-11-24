@@ -1,7 +1,10 @@
 FROM ubuntu:latest
 
 COPY bot/create_api.py /bot/
+COPY bot/get_weather.py /bot/
 COPY bot/create_tweet.py /bot/
+COPY bot/cities.csv /bot/
+COPY bot/token.json /bot/
 COPY requirements.txt /tmp
 
 
