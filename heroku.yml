@@ -2,7 +2,4 @@ build:
   docker:
     web: dockerfile
 run:
-  worker:
-    command:
-      - python create_tweet.py
-    image: weather-tweet-bot
+  worker: python create_tweet.py
