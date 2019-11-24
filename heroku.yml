@@ -5,3 +5,4 @@ run:
   worker:
     command:
       - python create_tweet.py
+    image: weather-tweet-bot
