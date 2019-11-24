@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def get_observation():
-    entry = pd.read_csv("cities.csv").sample()
+    entry = pd.read_csv("./cities.csv").sample()
     city = entry["City"].values[0]
     state = entry["State short"].values[0]
     owm = pyowm.OWM('03a2f49a1242c4094d3593b314fff7f0')
