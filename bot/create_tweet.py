@@ -20,4 +20,4 @@ if __name__ == "__main__":
         api = create_api()
         # print(tweet)
         api.update_status(tweet)
-        time.sleep(60*60*12)
+        time.sleep(60*60*24)

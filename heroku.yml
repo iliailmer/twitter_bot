@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: dockerfile
+run:
+  worker:
+    command:
+      - python create_tweet.py
