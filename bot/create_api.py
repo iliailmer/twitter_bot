@@ -1,3 +1,4 @@
+"""Module for connection to Twitter API."""
 import tweepy
 import json
 import logging
@@ -7,6 +8,7 @@ logger = logging.getLogger()
 
 
 def create_api():
+    """Function for creating the API object."""
     # with open("token.json") as f:
     #     token = json.load(f)
 

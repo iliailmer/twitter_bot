@@ -1,3 +1,4 @@
+"""Optional server I saw in a tutorial."""
 from os import environ
 from flask import Flask
 

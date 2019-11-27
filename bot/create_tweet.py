@@ -1,3 +1,4 @@
+"""Main bot module."""
 from get_weather import get_observation
 from create_api import create_api
 
