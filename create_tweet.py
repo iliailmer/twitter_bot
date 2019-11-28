@@ -13,7 +13,7 @@ if __name__ == "__main__":
             f" with {w.get_detailed_status().lower()}"
         if len(obs.get_location().get_name()) > 0:
             location = f" at {obs.get_location().get_name()}, " +\
-                f"{obs.get_location().get_lat()}, {obs.get_location().get_lon()}"
+                f"https://www.google.com/maps/?q={obs.get_location().get_lat()},{obs.get_location().get_lon()}"
         else:
             location = f" at {obs.get_location().get_lat()},"\
                 + f"{obs.get_location().get_lon()}."
