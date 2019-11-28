@@ -2,6 +2,6 @@
 __pycache__/
 .mypy_cache/
 *.tar
-token.json
 *.tar
 *.png
+*.json
