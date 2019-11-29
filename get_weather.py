@@ -5,6 +5,7 @@ from pyowm.tiles.enums import MapLayerEnum
 from pyowm.commons.tile import Tile
 from pyowm.utils.geo import Point
 import pandas as pd
+from os import environ
 
 
 def get_observation():
@@ -12,7 +13,7 @@ def get_observation():
     entry = pd.read_csv("./cities.csv").sample()
     city = entry["City"].values[0]
     state = entry["State short"].values[0]
-    owm = pyowm.OWM('03a2f49a1242c4094d3593b314fff7f0')
+    owm = pyowm.OWM(environ['OWM_KEY'])
     # reg = owm.city_id_registry()
     # ids = reg.ids_for(f'Cambridge', 'US')
     # owm.weather_at_coords(lat, lon)
