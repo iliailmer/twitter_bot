@@ -1,6 +1,3 @@
 # README
 
-##
-
-This repo is a twitter bot that posts one dankest meme from reddit per day every 24 hours.
-
+This repo is a twitter bot that posts current weather at a random US city/town every 6 hours.
