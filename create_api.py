@@ -8,12 +8,7 @@ logger = logging.getLogger()
 
 
 def create_api():
-    """Function for creating the API object."""
-    # with open("token.json") as f:
-    #     token = json.load(f)
-
-    # authentication
-
+    """Create the Twitter API object."""
     CONSUMER_KEY = environ['KEY']
     CONSUMER_SECRET = environ['SECRET_KEY']
     ACCESS_KEY = environ['ACCESS']

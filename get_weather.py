@@ -14,8 +14,5 @@ def get_observation():
     city = entry["City"].values[0]
     state = entry["State short"].values[0]
     owm = pyowm.OWM(environ['OWM_KEY'])
-    # reg = owm.city_id_registry()
-    # ids = reg.ids_for(f'Cambridge', 'US')
-    # owm.weather_at_coords(lat, lon)
     observation = owm.weather_at_place(f"{city},us")
     return observation
